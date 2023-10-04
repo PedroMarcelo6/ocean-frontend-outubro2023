@@ -8,8 +8,15 @@
   border: 0.1rem solid white;
   padding: 1rem;
   border-radius: 1rem;
-  box-shadow: 0.2rem 0.2rem white;
+  transition: all 0.1s;
 }
+
+.card:hover{
+  box-shadow: 0.2rem 0.2rem white;
+  translate: -0.2rem -0.2rem;
+}
+
+
 .card > h2 {
   font-size: 2rem;
 }
@@ -17,3 +24,5 @@
 .card > img {
   border-radius: 1rem; 
 }
+
+card-hover
